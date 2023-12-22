@@ -43,7 +43,7 @@ The primary goal of this project is to gain a some understanding of the **oil in
 
 For additional information on the data, including a data dictionary and guidelines, please refer to the official user manual provided by the Texas Railroad Commission: [Data Dictionary and Guidelines](https://www.rrc.texas.gov/media/50ypu2cg/pdq-dump-user-manual.pdf)
 
-# Visulisation:
+# Project Visualization:
 Please Visit the Link to see the Dashboard of the data: [Texas Counties Oil and Gas production dashboard](https://lookerstudio.google.com/reporting/2feb4b80-a3f3-45e1-ac1a-9f11a1422634)
 
 <img width="1000" alt="image" src="https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/b91083bf-2d03-45d4-89d0-0558b3adbdde">
