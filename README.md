@@ -1,39 +1,36 @@
-# Texas Railroad Commission Data Engineering Dashboard
+# Project Goal
 
-Welcome to the Texas Railroad Commission Data Engineering Project! This repository hosts an end-to-end data engineering project that collects, transforms, and visualizes valuable data from the Railroad Commission of Texas. The primary goal of this project is to provide insights into the production of oil and gas over the years and the cumulative production within the region.
+## Overview
+The primary goal of this project is to gain a comprehensive understanding of the oil industry by analyzing data from the Railroad Commission of Texas. Through this endeavor, we aim to achieve the following objectives:
 
-## Key Features
+### Explore Oil Industry Insights
+- Delve into the data to uncover valuable insights into the production of oil and gas over the years, providing a detailed understanding of production trends within the region.
 
-1. **Production Insights**: Our dashboard offers a clear view of oil and gas production trends over the years. Users can easily analyze how production has evolved annually.
+### Learn Data Engineering
+- This project serves as a learning opportunity to understand the intricacies of the data engineering process. By working on data collection, transformation, and visualization, we aim to acquire practical skills in data engineering.
 
-2. **Filtering Capabilities**: We empower users to customize their data exploration by providing filters for district selection, oil and gas code, and monthly date ranges. This functionality makes it easy to zoom in on specific aspects of the data.
+### Leverage Modern Data Engineering Tools
+- Embrace cutting-edge data engineering tools such as Mage-ai to streamline the ETL (Extract, Transform, Load) pipeline development. This enables us to work efficiently and effectively with complex data.
 
-3. **Interactive Dashboard**: The dashboard is designed to be user-friendly, offering an interactive experience that allows users to drill down into the data and extract actionable insights.
+### Explore Google Cloud Computing
+- Utilize the power of Google Cloud Computing for data storage and processing. This project provides hands-on experience with cloud-based solutions, enhancing our knowledge of cloud computing technologies.
 
-## Technology Stack
+# Technology Stack
 
-- **Data Collection**: Data was collected from the Texas Railroad Commission, ensuring the most accurate and up-to-date information.
+## Programming Languages and Tools
+- Python: Utilized for data collection, transformation, and analysis.
+- Jupyter Notebook: Used for interactive data exploration and documentation.
+- Pandas: Employed for data manipulation and analysis.
 
-- **Data Transformation**: Initial data transformation was performed using Python and Jupyter Notebook, enabling efficient data cleaning and preparation.
+## Google Cloud Platform (GCP)
+- Google Storage: Utilized for data storage and accessibility.
+- BigQuery: Leveraged for advanced data querying and analysis.
+- Compute Engine: Used for scalable computing resources.
+- Looker Studio: Applied for creating interactive and customized data visualizations.
 
-- **ETL Pipelines with Mage-ai**: We utilized Mage-ai, an innovative and interactive data engineering tool, to construct robust ETL (Extract, Transform, Load) pipelines. This streamlined the process of handling complex data transformations and ensured data quality.
+## Modern Data Pipeline Tool
+- [Mage-ai](https://www.mage.ai/): A powerful and interactive open-source data engineering tool employed to streamline ETL (Extract, Transform, Load) pipelines. Mage-ai facilitates efficient data processing and transformation.
 
-- **Visualization**: The data is visualized using cutting-edge visualization libraries to provide a clear and engaging presentation of the insights.
+# Data Model
 
-## Usage
 
-To get started with this project, follow these steps:
-
-1. Clone this repository to your local machine.
-
-2. Set up the required dependencies and environment as mentioned in the `requirements.txt` file.
-
-3. Run the Jupyter Notebook to explore the data transformation process.
-
-4. Utilize the Mage-ai ETL pipelines for data engineering.
-
-5. Launch the dashboard to visualize and interact with the data.
-
-## Contributing
-
-We welcome contributions, feedback, and collaboration from the data engineering community to continuously enhance this project. Feel free to explore our code repository and join us in making data engineering more accessible and insightful.
