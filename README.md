@@ -1,7 +1,7 @@
 # Project Goal
 
 ## Overview
-The primary goal of this project is to gain a comprehensive understanding of the oil industry by analyzing data from the Railroad Commission of Texas. Through this endeavor, we aim to achieve the following objectives:
+The primary goal of this project is to gain a some understanding of the **oil industry by analyzing data from the Railroad Commission of Texas**. Through this endeavor, we aim to achieve the following objectives:
 
 ### Explore Oil Industry Insights
 - Delve into the data to uncover valuable insights into the production of oil and gas over the years, providing a detailed understanding of production trends within the region.
