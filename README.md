@@ -33,4 +33,11 @@ The primary goal of this project is to gain a some understanding of the **oil in
 
 # Data Model
 
-![image](https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/c90c160d-efa2-4bbf-a3b2-e842adf3fd3f)
+# Data Model
+
+![Data Model](https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/c90c160d-efa2-4bbf-a3b2-e842adf3fd3f)
+
+**Data Collection**: Data was collected from the Texas Railroad Commission, ensuring the most accurate and up-to-date information. You can access the data directly from their website: [Texas Railroad Commission Data Sets](https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/)
+
+For additional information on the data, including a data dictionary and guidelines, please refer to the official user manual provided by the Texas Railroad Commission: [Data Dictionary and Guidelines](https://www.rrc.texas.gov/media/50ypu2cg/pdq-dump-user-manual.pdf)
+
