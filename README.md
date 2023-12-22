@@ -33,4 +33,4 @@ The primary goal of this project is to gain a some understanding of the **oil in
 
 # Data Model
 
-
+![image](https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/c90c160d-efa2-4bbf-a3b2-e842adf3fd3f)
