@@ -31,7 +31,9 @@ The primary goal of this project is to gain a some understanding of the **oil in
 ## Modern Data Pipeline Tool
 - [Mage-ai](https://www.mage.ai/): A powerful and interactive open-source data engineering tool employed to streamline ETL (Extract, Transform, Load) pipelines. Mage-ai facilitates efficient data processing and transformation.
 
-# Data Model
+# Project Architecture
+
+![Project Architecture](./architecture.jpg)
 
 # Data Model
 
