@@ -54,6 +54,7 @@ Please Visit the Link to see the Dashboard of the data: [Texas Counties Oil and 
 If you have any questions, feedback, or suggestions regarding this project, please feel free to reach out. You can contact me at:
 
 Email: [alabdaliesmail@gmail.com](mailto:alabdaliesmail@gmail.com)
+Author: **Ismail Al Abdali**
 
 I appreciate your input and am open to discussions, collaborations, and improvements. Don't hesitate to get in touch!
 
