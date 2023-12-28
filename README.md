@@ -46,7 +46,8 @@ For additional information on the data, including a data dictionary and guidelin
 # Project Visualization:
 Please Visit the Link to see the Dashboard of the data: [Texas Counties Oil and Gas production dashboard](https://lookerstudio.google.com/reporting/2feb4b80-a3f3-45e1-ac1a-9f11a1422634)
 
-<img width="1000" alt="image" src="https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/b91083bf-2d03-45d4-89d0-0558b3adbdde">
+
+<img width="1000" alt="image" src="https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/bda0689f-5335-4b6f-bb68-4548e960b120">
 
 
 # Questions or Feedback
