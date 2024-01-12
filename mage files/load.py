@@ -32,8 +32,9 @@ def load_data_from_api(*args, **kwargs):
 
         # Adding an identifier column to each DataFrame
     return {
-        'GP_DISTRICT_DATA_TABLE' : 
-        
+        'GP_DISTRICT_DATA_TABLE' :  dfs['GP_DISTRICT_DATA_TABLE'].to_dict(),
+       'GP_COUNTY_DATA_TABLE' :  dfs['GP_COUNTY_DATA_TABLE'].to_dict(),
+        'OG_COUNTY_CYCLE_DATA_TABLE' :  dfs['OG_COUNTY_CYCLE_DATA_TABLE'].to_dict()
     }
 
 
