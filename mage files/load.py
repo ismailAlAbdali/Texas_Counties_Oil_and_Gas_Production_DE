@@ -14,10 +14,9 @@ def load_data_from_api(*args, **kwargs):
     """
     
     urls = {
-        'GP_DISTRICT_DATA_TABLE': 'https://storage.googleapis.com/county_prod_bucket_1/COUNTY_DATA/GP_DISTRICT_DATA_TABLE.dsv',
-        'GP_COUNTY_DATA_TABLE': 'https://storage.googleapis.com/county_prod_bucket_1/COUNTY_DATA/GP_COUNTY_DATA_TABLE.dsv',
-        'OG_COUNTY_CYCLE_DATA_TABLE': 'https://storage.googleapis.com/county_prod_bucket_1/COUNTY_DATA/OG_COUNTY_CYCLE_DATA_TABLE.dsv',
-        'uscounties': 'https://storage.googleapis.com/county_prod_bucket_1/COUNTY_DATA/uscounties.csv'
+        'GP_DISTRICT_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extract/GP_DISTRICT_DATA_TABLE.dsv',
+        'GP_COUNTY_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extractGP_COUNTY_DATA_TABLE.dsv',
+        'OG_COUNTY_CYCLE_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extractOG_COUNTY_CYCLE_DATA_TABLE.dsv',
     }
     dfs = {}
 
@@ -32,11 +31,10 @@ def load_data_from_api(*args, **kwargs):
             print(f"Failed to load data from {value}")
 
         # Adding an identifier column to each DataFrame
-    for key in dfs:
-        dfs[key]['source'] = key
-
-    combined_df = pd.concat(dfs.values(), ignore_index=True)
-    return combined_df
+    return {
+        'GP_DISTRICT_DATA_TABLE' : 
+        
+    }
 
 
 @test
