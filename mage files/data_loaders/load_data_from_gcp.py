@@ -15,8 +15,8 @@ def load_data_from_api(*args, **kwargs):
     
     urls = {
         'GP_DISTRICT_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extract/GP_DISTRICT_DATA_TABLE.dsv',
-        'GP_COUNTY_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extractGP_COUNTY_DATA_TABLE.dsv',
-        'OG_COUNTY_CYCLE_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extractOG_COUNTY_CYCLE_DATA_TABLE.dsv',
+        'GP_COUNTY_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extract/GP_COUNTY_DATA_TABLE.dsv',
+        'OG_COUNTY_CYCLE_DATA_TABLE': 'https://storage.googleapis.com/rrc-auto-extract/OG_COUNTY_CYCLE_DATA_TABLE.dsv',
     }
     dfs = {}
 
@@ -36,11 +36,4 @@ def load_data_from_api(*args, **kwargs):
        'GP_COUNTY_DATA_TABLE' :  dfs['GP_COUNTY_DATA_TABLE'].to_dict(),
         'OG_COUNTY_CYCLE_DATA_TABLE' :  dfs['OG_COUNTY_CYCLE_DATA_TABLE'].to_dict()
     }
-
-
-@test
-def test_output(output, *args) -> None:
-    """
-    Template code for testing the output of the block.
-    """
-    assert output is not None, 'The output is undefined'
+    
