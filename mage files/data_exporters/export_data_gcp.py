@@ -25,7 +25,7 @@ def export_data(*args, **kwargs):
 
     bucket_name = "rrc-auto-extract"
     local_dir = "./data"
-    account_json_file = "./rail-road-texas-og-county-prod-15d38d72a0da.json"
+    account_json_file = "./file.json"
     
     for filename in os.listdir(local_dir):
         if ".dsv" in filename:
