@@ -3,8 +3,8 @@
 ## Overview
 The primary goal of this project is to gain a some understanding of the **oil industry by analyzing data from the Railroad Commission of Texas**. Through this endeavor, we aim to achieve the following objectives:
 
-### Explore Oil Industry Insights
-- Delve into the data to uncover valuable insights into the production of oil and gas over the years, providing a detailed understanding of production trends within the region.
+### Explore Oil Industry Insights and Data Discovery
+- Delve into the data to uncover valuable insights into the production of oil and gas over the years, providing a detailed understanding of production trends within the region. This process required data discovery and reading data catalogs to get some comprehensive understanding of the data.
 
 ### Learn Data Engineering
 - This project serves as a learning opportunity to understand the intricacies of the data engineering process. By working on data collection, transformation, and visualization, we aim to acquire practical skills in data engineering.
@@ -15,29 +15,39 @@ The primary goal of this project is to gain a some understanding of the **oil in
 ### Explore Google Cloud Computing
 - Utilize the power of Google Cloud Computing for data storage and processing. This project provides hands-on experience with cloud-based solutions, enhancing our knowledge of cloud computing technologies.
 
+### Automation in Python
+- Learn to utilize python tools to automate manual weekly or monthly work in order to free up some time for more creative and productive endeavors.
+
 # Technology Stack
 
 ## Programming Languages and Tools
 - Python: Utilized for data collection, transformation, and analysis.
 - Jupyter Notebook: Used for interactive data exploration and documentation.
 - Pandas: Employed for data manipulation and analysis.
+- Selenium : Web Scraping tool to download data from a certain website.
+- Chrome Webdriver manager: lets Selenium do its work.
+- Google Cloud SDK: Write queries in the warehouse BigQuery and export data to cloud storage. 
 
 ## Google Cloud Platform (GCP)
 - Google Storage: Utilized for data storage and accessibility.
 - BigQuery: Leveraged for advanced data querying and analysis.
 - Compute Engine: Used for scalable computing resources.
 - Looker Studio: Applied for creating interactive and customized data visualizations.
+- FireWall: Manage the IP Address that access Mage-AI server.
 
 ## Modern Data Pipeline Tool
 - [Mage-ai](https://www.mage.ai/): A powerful and interactive open-source data engineering tool employed to streamline ETL (Extract, Transform, Load) pipelines. Mage-ai facilitates efficient data processing and transformation.
 
 # Project Architecture
 
-![Project Architecture](./architecture.jpg)
+<img width="855" alt="image" src="https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/eb37f8e4-da92-459e-9d83-5e32baef0934">
+
 
 # Data Model
 
-![Data Model](https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/c90c160d-efa2-4bbf-a3b2-e842adf3fd3f)
+
+<img width="938" alt="image" src="https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/5c3b462d-9e03-4f25-8c06-f0906193d44e">
+
 
 **Data Collection**: Data was collected from the Texas Railroad Commission, ensuring the most accurate and up-to-date information. You can access the data directly from their website: [Texas Railroad Commission Data Sets](https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/)
 
@@ -49,9 +59,6 @@ Please Visit the Link to see the Dashboard of the data: [Texas Counties Oil and 
 
 <img width="702" alt="image" src="https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/69cb0f2a-e891-460d-af63-8ab1727a1999">
 
-
-
-<img width="1000" alt="image" src="https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/bda0689f-5335-4b6f-bb68-4548e960b120">
 
 
 # Questions or Feedback
