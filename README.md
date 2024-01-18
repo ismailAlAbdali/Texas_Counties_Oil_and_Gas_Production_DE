@@ -53,6 +53,24 @@ The primary goal of this project is to gain a some understanding of the **oil in
 
 For additional information on the data, including a data dictionary and guidelines, please refer to the official user manual provided by the Texas Railroad Commission: [Data Dictionary and Guidelines](https://www.rrc.texas.gov/media/50ypu2cg/pdq-dump-user-manual.pdf)
 
+# data Pipeline Design:
+
+![data-Pipeline](https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/cd739eda-c9ed-49ec-9005-b22a35b7781b)
+
+Here is a description of DAG(Direct Acyclic Graph ) design showing what each task does in the pipeline.
+
+| Task                     | Description of what it does                                                                                                            |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `download_data`          | Downloads the data from the [Texas RRC](https://www.rrc.texas.gov/) website and then waits for the download to finish. Downloading the data takes about 20 minutes.                             |
+| `unzip_data`               | After the data is downloaded, the `unzip_data` task is going to unzip the data so that it is ready to be exported to our cloud storage data lake.                                                   |
+| `export_data_gcp`          | Exports the data into cloud storage.                                                                                                    |
+| `load_data_from_gcp`       | After the data is exported, we load the data from the lake so it is ready to be transformed as designed in the data model.              |
+| `clean_up_data`            | This process cleans up the data from the server so that it is ready for the next data downloading and loading, and also ensures we don't have extra storage in our local environment, keeping the server clean. |
+| `transform_data`           | This task transforms the data from 3 DSV files scattered into 3 dimensional tables and 1 fact table so they are ready to be utilized in the data warehouse.                                              |
+| `export_data_to_bigquery`  | Exports the data into the BigQuery data warehouse.                                                                                        |
+| `run_analysis_prod_query`  | Runs DDL queries in order to make the data ready for analysis. All of the production data needed will be in our tables utilized for analysis.                                                    |
+
+
 # Project Visualization:
 Please Visit the Link to see the Dashboard of the data: [Texas Counties Oil and Gas production dashboard](https://lookerstudio.google.com/reporting/2feb4b80-a3f3-45e1-ac1a-9f11a1422634)
 
