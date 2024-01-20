@@ -66,7 +66,7 @@ Here is a description of DAG(Direct Acyclic Graph ) design showing what each tas
 | `export_data_gcp`          | Exports the data into cloud storage.                                                                                                    |
 | `load_data_from_gcp`       | After the data is exported, we load the data from the lake so it is ready to be transformed as designed in the data model.              |
 | `clean_up_data`            | This process cleans up the data from the server so that it is ready for the next data downloading and loading, and also ensures we don't have extra storage in our local environment, keeping the server clean. |
-| `transform_data`           | This task transforms the data from 3 DSV files scattered into 3 dimensional tables and 1 fact table so they are ready to be utilized in the data warehouse.                                              |
+| `transform_data`           | This task transforms the data from 3 DSV files scattered into 3 dim tables and 1 fact table so they are ready to be utilized in the data warehouse.                                              |
 | `export_data_to_bigquery`  | Exports the data into the BigQuery data warehouse.                                                                                        |
 | `run_analysis_prod_query`  | Runs DDL queries in order to make the data ready for analysis. All of the production data needed will be in our tables utilized for analysis.                                                    |
 
