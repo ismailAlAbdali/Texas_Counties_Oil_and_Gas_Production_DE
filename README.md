@@ -53,7 +53,7 @@ The primary goal of this project is to gain a some understanding of the **oil in
 
 For additional information on the data, including a data dictionary and guidelines, please refer to the official user manual provided by the Texas Railroad Commission: [Data Dictionary and Guidelines](https://www.rrc.texas.gov/media/50ypu2cg/pdq-dump-user-manual.pdf)
 
-# data Pipeline Design:
+# Data Pipeline Design:
 
 ![data-Pipeline](https://github.com/ismailAlAbdali/Texas_Counties_Production_DE/assets/121197140/cd739eda-c9ed-49ec-9005-b22a35b7781b)
 
