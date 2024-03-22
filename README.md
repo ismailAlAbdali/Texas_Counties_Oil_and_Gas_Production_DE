@@ -19,7 +19,7 @@ The primary goal of this project is to gain a some understanding of the **oil in
 - Learn to utilize python tools to automate manual weekly or monthly work in order to free up some time for more creative and productive endeavors.
 
 # Basic Idea of the project:
-- I have automated the daily process of extracting data from the RRC website through a data pipeline, exporting it to a cloud-based data lake, importing, modeling, and transferring it to a BigQuery data warehouse. Subsequently, I have utilized the Looker Studio data visualization platform for analytics. Periodic manual checks ensure the pipeline's smooth operation, but the majority of the workflow is fully automated and currently runs in weekly manner.
+- I have automated the process of extracting data from the RRC website through a data pipeline, exporting it to a cloud-based data lake, importing, modeling, and transferring it to a BigQuery data warehouse. Subsequently, I have utilized the Looker Studio data visualization platform for analytics. Periodic manual checks ensure the pipeline's smooth operation, but the majority of the workflow is fully automated and currently runs in weekly manner.
 
   
 
