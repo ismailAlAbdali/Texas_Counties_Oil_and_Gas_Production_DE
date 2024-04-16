@@ -26,7 +26,7 @@ def transform(dfs_dict, *args, **kwargs):
     DF_GP_COUNTY_DATA_TABLE = pd.DataFrame(dfs_dict['GP_COUNTY_DATA_TABLE'])
     DF_OG_COUNTY_CYCLE_DATA_TABLE = pd.DataFrame(dfs_dict['OG_COUNTY_CYCLE_DATA_TABLE'])
 
-    print(DF_GP_DISTRICT_DATA_TABLE)
+    # print(DF_GP_DISTRICT_DATA_TABLE) 
     DF_GP_COUNTY_DATA_TABLE = DF_GP_COUNTY_DATA_TABLE[["COUNTY_NO","COUNTY_NAME","COUNTY_FIPS_CODE","ON_SHORE_FLAG","ONSHORE_ASSC_CNTY_FLAG"]]
     
     # make some renames
